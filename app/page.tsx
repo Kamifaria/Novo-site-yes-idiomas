@@ -1,7 +1,15 @@
+import Header from '../components/Header';
+import HeroBanner from '../components/HeroBanner';
+import FormLead from '../components/FormLead';
+import Footer from '../components/Footer';
+
 export default function Home() {
   return (
-    <main className="flex items-center justify-center min-h-screen bg-yellow-100">
-      <h1 className="text-4xl font-bold text-red-600">Tailwind funcionando!</h1>
-    </main>
+    <>
+      <h1>Bem-vindo à YES! Idiomas</h1>
+      <p>Estamos construindo um site incrível, passo a passo com você!</p>
+      <button>QUERO ME MATRICULAR</button>
+    </>
   );
 }
+
